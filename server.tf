@@ -1,8 +1,4 @@
-provider "aws" {
-    access_key = "AKIARJ72QXRZADQXINXA"
-    secret_key = "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"
-    region = "us-east-1"
-}
+
 
 resource "aws_security_group" "jenkins_sg" {
   name        = "jenkins_sg"
